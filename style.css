@@ -1,0 +1,19 @@
+*{
+    font-family: fantasy;
+}
+
+body{
+    background-color: red;
+    color: greenyellow;
+}
+
+dialog ::backdrop{
+    background-color: rgba(0, 0, 0, .5);
+}
+
+dialog {
+    border: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 1rem rgb(0, 0, 0);
+    width: 80%;
+}
